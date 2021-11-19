@@ -4,4 +4,4 @@ Simple web application for Malika Tea 🍵
 - Navbar.
 - Columns Layouts using Floats. 
 - External Icons from fontawesome.  
-- Animations. 
+- Animation. 
