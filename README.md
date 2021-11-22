@@ -5,5 +5,3 @@ Simple web application for Malika Tea 🍵
 - Columns Layouts using Floats. 
 - External Icons from fontawesome.  
 - Animation. 
-
-To run Demo : https://malika-tea.netlify.app/
