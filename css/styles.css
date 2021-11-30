@@ -284,7 +284,7 @@ Header
     url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
   position: relative;
   /* animation */
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .banner {
   text-align: center;

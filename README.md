@@ -1,10 +1,10 @@
 # html-css-malika-tea
 Simple web application for Malika Tea 🍵
 - Responsive Design. 
+- Floats for Columns Layouts. 
 - Navbar.
-- Columns Layouts using Floats. 
-- External Icons from fontawesome.  
 - Animation. 
+- External Icons from fontawesome.  
 
 To run Demo : https://malika-tea.netlify.app/
 
