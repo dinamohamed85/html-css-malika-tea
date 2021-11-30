@@ -14,14 +14,14 @@ Variables
 :root {
   --clr-primary: #9b5377;
   --clr-primary-light: #fcd1f2;
-  --clr-grey-1: #102a42;
+   --clr-grey-1: #102a42;
   --clr-grey-5: #617d98;
   --clr-grey-10: #f1f5f8;
   --clr-white: #fff;
   --ff-primary: "Catamaran", sans-serif;
   --ff-secondary: "Grand Hotel", cursive;
   --transition: all 0.3s linear;
-  --spacing: 0.20rem;
+  --spacing: 0.25rem;
   --radius: 0.5rem;
 }
 * {
@@ -33,8 +33,8 @@ body {
   font-family: var(--ff-primary);
   background: var(--clr-white);
   color: var(--clr-grey-1);
-  line-height: 1.25;
-  font-size: 0.775rem;
+  line-height: 1.5;
+  font-size: 0.875rem;
 }
 a {
   text-decoration: none;
@@ -49,45 +49,45 @@ h3,
 h4 {
   letter-spacing: var(--spacing);
   text-transform: capitalize;
-  line-height: 1.20;
-  margin-bottom: 0.55rem;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
 }
 h1 {
-  font-size: 3.0rem;
+  font-size: 3rem;
 }
 h2 {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 h3 {
-  font-size: 1.50rem;
+  font-size: 1.5rem;
 }
 h4 {
-  font-size: 0.775rem;
+  font-size: 0.875rem;
 }
 p {
-  margin-bottom: 1.0rem;
+  margin-bottom: 1.25rem;
 }
 @media screen and (min-width: 800px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
   h2 {
-    font-size: 2.25rem;
+    font-size: 2.5rem;
   }
   h3 {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
   h4 {
-    font-size: 0.85rem;
+    font-size: 1rem;
   }
   body {
-    font-size: 0.88rem;
+    font-size: 1rem;
   }
   h1,
   h2,
   h3,
   h4 {
-    line-height: 0.75;
+    line-height: 1;
   }
 }
 /* more global css */
@@ -121,10 +121,10 @@ p {
   color: var(--clr-primary);
 }
 .section-title {
-  margin-bottom: 1.0rem;
+  margin-bottom: 2rem;
 }
 .section-center {
-  padding: 3.0rem 0;
+  padding: 4rem 0;
   width: 85vw;
   margin: 0 auto;
   max-width: 1170px;
@@ -132,7 +132,7 @@ p {
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
-    padding: 3rem 0.75rem;
+    padding: 4rem 1rem;
   }
 }
 /*
@@ -208,14 +208,14 @@ Navbar
 */
 .nav-btn {
   position: fixed;
-  top: 3%;
-  left: 3%;
-  font-size: 2.0rem;
+  top: 5%;
+  left: 5%;
+  font-size: 2.5rem;
   color: var(--clr-primary);
   z-index: 1;
   cursor: pointer;
   /* animation */
-  animation: bounce 4s ease infinite;
+  animation: bounce 2s ease infinite;
 }
 /* navbar */
 .navbar {
@@ -281,10 +281,10 @@ Header
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
+    url("../images/main-bcg.jpeg") center/cover no-repeat;
   position: relative;
   /* animation */
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 .banner {
   text-align: center;
@@ -302,8 +302,8 @@ Header
 .banner h1 {
   text-transform: uppercase;
   color: var(--clr-white);
-  margin-top: 1.20rem;
-  margin-bottom: 1.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 2rem;
   /* animation */
   animation: slideFromLeft 5s ease-in-out 1;
 }
@@ -334,7 +334,7 @@ Skills
   background: var(--clr-grey-10);
 }
 .skill {
-  padding: 2.25rem 0;
+  padding: 2.5rem 0;
   text-align: center;
   transition: var(--transition);
 }
@@ -422,11 +422,11 @@ Products
   max-width: 26rem;
 }
 .product {
-  margin-bottom: 1.75rem;
+  margin-bottom: 2rem;
 }
 .product-img {
   border-radius: var(--radius);
-  margin-bottom: 1.75rem;
+  margin-bottom: 2rem;
   height: 17rem;
   object-fit: cover;
 }
@@ -465,8 +465,8 @@ Services
 ===============
 */
 .services-title {
-  margin-top: 3.5rem;
-  margin-bottom: -3.5rem;
+  margin-top: 4rem;
+  margin-bottom: -4rem;
   text-align: center;
 }
 .service-card {
